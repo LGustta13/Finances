@@ -10,3 +10,6 @@ Definição: é uma biblioteca usada no react native para trabalhar com as propr
 Instalação: yarn add styled-components; yarn add @types/styled-components-react-native -D (tipagem no react native)
 Documentação: https://styled-components.com/
 Dicas: as propriedades em cascata ficam no formato pascal-case e dentro de uma `literal string` (não camelCase nem snake_case)
+
+ThemeProvider
+Definição: é um tipo de contexto usado quando deve ser definido um estilo global de temas para acesso de todos os arquivos do projeto, não sendo necessário assim realizar um import na localização do tema a ser usado (é importado somente n arquivo que executa a aplicação - App.tsx)

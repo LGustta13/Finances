@@ -8,8 +8,9 @@ export const Container = styled.View`
     background-color: ${(provider) => provider.theme.colors.secondary};
 `;
 
+// Para acessar deve executar uma array function
 export const Title = styled.Text`
+    font-family: ${(object) => object.theme.fonts.bold}; 
     font-size: 30px;
-    font-weight: bold;
     color: ${(provider) => provider.theme.colors.title};
 `;

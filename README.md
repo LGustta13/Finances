@@ -13,3 +13,13 @@ Dicas: as propriedades em cascata ficam no formato pascal-case e dentro de uma `
 
 ThemeProvider
 Definição: é um tipo de contexto usado quando deve ser definido um estilo global de temas para acesso de todos os arquivos do projeto, não sendo necessário assim realizar um import na localização do tema a ser usado (é importado somente n arquivo que executa a aplicação - App.tsx)
+
+Fontes
+Definição: as configurações realizadas para fontes dentro do expo são mais simples do que nativamente, visto que basta somente pegar no Google fonts (https://fonts.google.com/)
+Instalação: expo install expo-font @expo-google-fonts/nome_da_fonte
+Dicas: realizar o import das fontes no App.ts/js e deve ser utilizado o hook useFonts no qual retorna um valor booleano caso as fontes carregarem
+
+App loading
+Definição: componente do expo que lida com telas de carregamento para dispositivos que precisam carregar fontes, logos, ícones, entre outros
+Instalação: expo install expo-app-loading
+Documentação: https://docs.expo.dev/versions/latest/sdk/app-loading/

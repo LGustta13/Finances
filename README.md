@@ -29,3 +29,8 @@ Definição: conceito importante que relaciona as interfaces de diferentes celul
 Documentação: https://www.npmjs.com/package/react-native-responsive-fontsize
 Instalação: yarn add react-native-responsive-fontsize
 Conceito: biblioteca que utiliza das proporções dos pixels gerados a partir do tamanho da fonte, componente para renderizar em plataformas com proporções diferentes de forma responsiva
+
+Ícones
+Definição: utilização de logos e ícones na aplicação
+Instalação: @expo/vector-icons (já vem instalado pelo expo)
+Documentação: https://icons.expo.fyi/

@@ -4,8 +4,9 @@ import { } from 'react-native';
 
 // COMMUNITY
 
-
 // MINE
+import { HighlightCard } from '../../components/HighlightCard';
+
 import { 
     Container,
     Header,
@@ -31,11 +32,14 @@ export const Dashboard = () => {
                             <UserName>Luis Gustavo</UserName>
                         </User>
                     </UserInfo>
+                    
                     <Icon name="sign-out"/>
 
                 </UserWrapper>
                 
             </Header>
+
+            <HighlightCard/>
             
         </Container>
     )

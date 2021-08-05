@@ -57,6 +57,7 @@ export const UserName = styled.Text`
     font-family: ${({theme}) => theme.fonts.bold};
 `;
 
+// Modificando a biblioteca FontAwesome
 export const Icon = styled(FontAwesome)`
     color: ${({theme}) => theme.colors.secondary};
     font-size: ${RFValue(28)}px;

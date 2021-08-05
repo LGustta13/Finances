@@ -26,3 +26,6 @@ Documentação: https://docs.expo.dev/versions/latest/sdk/app-loading/
 
 Densidade de pixels
 Definição: conceito importante que relaciona as interfaces de diferentes celulares e como os elementos são renderizados em cada tela, sendo que dependendo da plataforma (Android, IOS, PC) a densidade de pixels será diferente. Entretando, trabalha-se com a independência de pixels, para proporções dependendo da tela, unidades relativas, fontes responsivas, entre outros
+Documentação: https://www.npmjs.com/package/react-native-responsive-fontsize
+Instalação: yarn add react-native-responsive-fontsize
+Conceito: biblioteca que utiliza das proporções dos pixels gerados a partir do tamanho da fonte, componente para renderizar em plataformas com proporções diferentes de forma responsiva

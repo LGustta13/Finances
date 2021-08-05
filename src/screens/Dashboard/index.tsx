@@ -9,11 +9,13 @@ import { } from 'react-native';
 import { 
     Container,
     Header,
+    UserWrapper,
     UserInfo,
     Photo,
     User,
     UserGreetings,
-    UserName
+    UserName,
+    Icon
 } from './styles';
 
 
@@ -21,14 +23,18 @@ export const Dashboard = () => {
     return (
         <Container>
             <Header>
-                <UserInfo>
-                    <Photo source={{uri: 'https://avatars.githubusercontent.com/u/67337459?v=4'}}/>
-                    <User>
-                        <UserGreetings>Olá, </UserGreetings>
-                        <UserName>Luis Gustavo</UserName>
-                    </User>
-                </UserInfo>
+                <UserWrapper>
+                    <UserInfo>
+                        <Photo source={{uri: 'https://avatars.githubusercontent.com/u/67337459?v=4'}}/>
+                        <User>
+                            <UserGreetings>Olá, </UserGreetings>
+                            <UserName>Luis Gustavo</UserName>
+                        </User>
+                    </UserInfo>
+                    <Icon name="sign-out"/>
 
+                </UserWrapper>
+                
             </Header>
             
         </Container>

@@ -23,3 +23,6 @@ App loading
 Definição: componente do expo que lida com telas de carregamento para dispositivos que precisam carregar fontes, logos, ícones, entre outros
 Instalação: expo install expo-app-loading
 Documentação: https://docs.expo.dev/versions/latest/sdk/app-loading/
+
+Densidade de pixels
+Definição: conceito importante que relaciona as interfaces de diferentes celulares e como os elementos são renderizados em cada tela, sendo que dependendo da plataforma (Android, IOS, PC) a densidade de pixels será diferente. Entretando, trabalha-se com a independência de pixels, para proporções dependendo da tela, unidades relativas, fontes responsivas, entre outros
